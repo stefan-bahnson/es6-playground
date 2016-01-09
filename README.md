@@ -11,3 +11,7 @@ The browser will keep track of your updates after saving so `ctrl + s` is your f
 Go to `./src/js/es6/` folder to try some new es6 features.  
 To add a webpack watcher go to the `./<feature-name>` folder of the desired feature and run the following command in the terminal: `webpack -w`
 The tranpiled output file will now update on `save`  
+
+# Linux configuration
+On Ubuntu-based distros: node is named nodejs so we need to make a symlink: `sudo ln -s /usr/bin/nodejs /usr/bin/node` 
+Need to manually install `webpack-dev-server` and `babel-loader`. After installing them need to run `npm install`. These steps can probably be eliminated by a better config.
