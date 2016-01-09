@@ -9,5 +9,5 @@ The browser will keep track of your updates after saving so `ctrl + s` is your f
 
 # ES6 Examples
 Go to `./src/js/es6/` folder to try some new es6 features.  
-To add a webpack watcher go to the `./out` folder of the desired feature and run the following command in the terminal: `webpack -w`  
+To add a webpack watcher go to the `./<feature-name>` folder of the desired feature and run the following command in the terminal: `webpack -w`
 The tranpiled output file will now update on `save`  
